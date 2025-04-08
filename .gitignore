@@ -1,0 +1,34 @@
+# Python 编译产生的缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE / 编辑器配置文件
+.vscode/
+.idea/
+
+# 单元测试缓存
+.pytest_cache/
+.tox/
+
+# 打包相关
+build/
+dist/
+*.egg-info/
+
+# 日志 / 临时文件
+*.log
+*.tmp
+
+# 本地配置文件
+*.env
+.DS_Store
