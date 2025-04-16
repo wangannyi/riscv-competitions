@@ -2,10 +2,11 @@
 import serial
 import time
 
-serial_port = '/dev/ttyACM0'
+serial_port = '/dev/ttyACM0'  # 串口号，根据你的设备修改，比如 '/dev/ttyUSB0'（Linux）
+
 # 配置串口
 ser = serial.Serial(
-    port=serial_port,      # 串口号，根据你的设备修改，比如 '/dev/ttyUSB0'（Linux）
+    port=serial_port,
     baudrate=9600,    # 波特率
     bytesize=serial.EIGHTBITS,
     parity=serial.PARITY_NONE,
