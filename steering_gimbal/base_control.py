@@ -7,7 +7,7 @@ Device.pin_factory = LGPIOFactory(chip=0)
 from gpiozero import Servo
 from time import sleep
 
-pin_number = 70
+pin_number = 73
 
 servo = Servo(pin_number, min_pulse_width=0.0005, max_pulse_width=0.0025, frame_width=0.02)
 # servo.detach()
